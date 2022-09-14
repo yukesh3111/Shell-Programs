@@ -1,0 +1,4 @@
+echo "Enter a number : "
+read a
+sq=`expr $a \* $a`
+echo "Square of a is $sq"
