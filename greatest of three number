@@ -1,0 +1,17 @@
+echo "Enter a number 1 : "
+read a
+echo "Enter a number 2 : "
+read b
+echo "Enter a number 3 : "
+read c
+if(($a > $b & $a > $b))
+then
+  echo "$a is grearter than all"
+elif(($b > $a & $b > $c))
+then 
+  echo "$b is greater than all"
+else
+  echo "$c is greater than all"
+
+fi
+  
