@@ -1,0 +1,14 @@
+echo "enter  a  num1:"
+read a
+echo "enter  a  num2:"
+read b
+c=$(($a+$b))
+d=$(($a-$b))
+e=$(($a*$b))
+f=$(($a/$b))
+g=$(($a%$b))
+echo " addition of number is : $c"
+echo " subraction of number is : $d"
+echo " multiplication of number is : $e"
+echo " division of number is : $f"
+echo " Modulas of number is : $g"
