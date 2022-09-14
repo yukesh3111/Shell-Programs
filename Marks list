@@ -1,0 +1,11 @@
+echo "Enter a mark :"
+read a
+if(($a>=60 & $a<=100))
+then
+  echo "First Division"
+elif(($a>=35 & a<60))
+then
+  echo "Second Division"
+else
+  echo "Fail"
+fi
